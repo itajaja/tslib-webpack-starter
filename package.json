@@ -1,0 +1,35 @@
+{
+  "name": "tslib-webpack-starter",
+  "version": "0.1.0",
+  "description": "A boilerplate project for typescript + webpack + tslint + babel",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "httpshttps://github.com/itajaja/tslib-webpack-starter"
+  },
+  "keywords": [
+    "typescript",
+    "webpack",
+    "tslint",
+    "boilerplate",
+    "starter"
+  ],
+  "author": "Giacomo Tagliabue",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^6.1.18",
+    "babel-core": "^6.2.1",
+    "babel-loader": "^6.2.0",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-preset-stage-2": "^6.1.18",
+    "ts-loader": "^0.7.2",
+    "tslint": "^3.0.0",
+    "tslint-loader": "^2.1.0",
+    "typescript": "^1.6.2",
+    "webpack": "^1.12.9"
+  }
+}
