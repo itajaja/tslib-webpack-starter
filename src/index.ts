@@ -1,3 +1,3 @@
 import mod from './module';
 
-export const inex = mod.foo;
+export const index = mod.foo;
