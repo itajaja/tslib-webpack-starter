@@ -20,7 +20,7 @@ module.exports = {
   },
 
   module: {
-    preLoaders: [ { test: /\.ts$/, loader: "tslint" } ],
+    preLoaders: [ { test: /\.tsx$/, loader: "tslint" } ],
     loaders: [ { test: /\.tsx?$/, loader: 'babel!ts-loader' } ]
   },
 
